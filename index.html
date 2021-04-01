@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+
+    <!-- stylesheets -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- my own stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body>
+
+    <!-- Method1 --><!-- change the display type from block to inline for heading -->
+    <!-- <div class="">
+      <img class="logo__img" src="image/logo.png" alt="Cake Logo"/>
+
+      <h1 class="main__heading">Chocolate cake </h1>
+    </div> -->
+
+    <!-- Method 2 -->
+
+    <div class="row nav">
+      <div class="col1">
+          <img class="logo__img" src="image/logo.png" alt="Cake Logo"/>
+      </div>
+      <div class="col2">
+        <h1 class="main__heading">Chocolate cake </h1>
+      </div>
+      <div class="col3 social__links">
+        <i class="fab fa-facebook myFacebook"></i>
+        <i class="fab fa-twitter-square myTwitter"></i>
+      </div>
+
+    </div>
+
+
+    <div class="">
+      <img class="cake__img" src="image/cake.jpeg" alt="Brownie" />
+      <button class="button orderNow" type="button" name="button">Order now</button>
+    </div>
+    <!-- Ingredients -->
+    <h3 class="ingredients__heading">Ingredients</h3>
+    <ul class="ingredients__list">
+      <li>2 cups white sugar</li>
+      <li>1 ¾ cups all-purpose flour</li>
+      <li>¾ cup unsweetened cocoa powder</li>
+      <li>1 ¾ cups all-purpose flour</li>
+      <li>1 ½ teaspoons baking powder</li>
+    </ul>
+
+    <!-- Directions -->
+    <h3 class="directions__heading">Directions</h3>
+    <div class="directions__para--container">
+
+      <p class="directions__para">Preheat oven to 350 degrees F (175 degrees C).
+        Grease and flour two nine inch round pans.
+      <p class="directions__para">In a large bowl, stir together the sugar, flour,
+        cocoa, baking powder, baking soda and salt.
+        Add the eggs, milk, oil and vanilla, mix for
+        2 minutes on medium speed of mixer. Stir in
+        the boiling water last. Batter will be thin.
+        Pour evenly into the prepared pans.</p>
+       <p class="directions__para">Bake 30 to 35 minutes in the preheated oven,
+         until the cake tests done with a toothpick.
+         Cool in the pans for 10 minutes, then remove
+         to a wire rack to cool completely.</p>
+    </div>
+
+    <div class="contact__para">
+      <p>Contact</p>
+      <!-- contact form section -->
+      <form class="" action="index.html" method="post">
+        <label for="userName">Name: </label>
+        <input  class="formText" type="text" id="userName" name="" value="">
+        <br>
+        <label for="userEmail">Email: </label>
+        <input  class="formText" type="text" id="userEmail" name="" value="">
+        <br>
+        <label for="location">Choose a location:</label>
+        <select id="location" name="location" class="location">
+          <option value="wellington">Wellington</option>
+          <option value="porirua">Porirua</option>
+          <option value="lowerhutt">Lower Hutt</option>
+          <option value="newtown">New Town</option>
+        </select>
+        <br>
+        <label for="message">Send us message</label> <br>
+        <textarea id="mesage" name="name" rows="8" cols="80">
+        </textarea>
+        <br>
+        <button class="submitBtn" type="button" name="button">Submit</button>
+      </form>
+      <!-- <p>Contact : someemail@gmail.com</p> -->
+    </div>
+
+
+
+</html>

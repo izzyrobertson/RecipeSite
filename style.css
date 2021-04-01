@@ -1,0 +1,140 @@
+/*css reset */
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: turquoise;
+  background: url("../image/background.jpeg");
+  /* color : blue; */
+}
+.logo__img {
+  width: 80px;
+  height : auto;
+}
+.row {
+  width: 80%;
+  height : 80px;
+  /* border: 2px solid yellow; */
+  margin: 20px  auto;
+}
+
+.col1, .col3{
+  width: 20%;
+  float: left;
+  /* background : lightblue; */
+}
+
+.col2 {
+  width: 60%;
+  float: left;
+  /* border : 1px solid red; */
+  text-align: center;
+}
+
+
+.row ::after {
+  clear : both;
+  display: table;
+  content: "";
+}
+.nav {
+  position : sticky;
+  top : 0 ;
+  left: 10%;
+}
+/* #69F0E7 light blue
+#5655D9 dark blue */
+.main__heading {
+  /* color : rgb(44, 131, 126 ) ; */
+  color : hsl(176, 67%, 34%,0.5) ;
+  /* color : #2C837E; */
+  /* background-color: #69F0E7; */
+  /* text-align: center; */
+  font-size: 60px;
+  display : inline;
+
+}
+
+.cake__img {
+  width: 800px;
+  /* max-width: 600px;/* to control the maximum width*/ */
+  height: auto;
+  display : block;/* to center the image*/
+  margin: auto;/* to center the image*/
+  border: 1px solid #4a412a;
+}
+.button {
+  width: 350px;
+  height : 50px;
+  background: #4a412a;
+  color : white;
+  font-size: 40px;
+  z-index : 1;
+  position : absolute;
+  bottom : 0px;
+  left: 15%;
+}
+
+.ingredients__heading, .directions__heading{
+  font-size: 45px;
+  color :#69F0E7;
+  background-color: black;
+  margin: 30px 10%;
+  width : 240px;
+
+}
+
+.ingredients__list {
+  color : black;
+  border : 2px solid #4a412a;
+  padding: 15px;
+  margin : 20px 10%;
+  list-style: none;/*remove bullets*/
+}
+.directions__para--container {
+    border : 2px solid #4a412a;
+    margin : 30px 10%;
+}
+
+.directions__para {
+  /* color : #5655D9 ; */
+  padding-left : 15px;
+  width: 60%;
+  line-height: 25px;
+
+}
+.myFacebook, .myTwitter {
+  float :right;
+  font-size: 60px;
+  color: brown;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.contact__para{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  background: black;
+}
+.formText, .location{
+  width: 300px;
+  height: 35px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+form{
+  border : 1px solid white;
+  margin : 20px auto;
+  width: 40%;
+  padding: 10px;
+}
+.submitBtn {
+  width: 200px;
+  height : 50px;
+  background: #4a412a;
+  color : white;
+  font-size:22px;
+}
